@@ -5,11 +5,17 @@ body
 	
 }
 
+.bg-dark {
+    background-color: #090a0ad9 !important;
+}
+
 
 .bg-primary
 {
 	background: #15406f !important;
 }
+
+
 
 /******Efecto hover home-pa****/
 
@@ -70,6 +76,8 @@ body
     text-decoration: none;
     
 }
+
+
 
 
 /*********/
@@ -332,6 +340,12 @@ h5 {
 
 }
 
+.navbar-light .navbar-nav .nav-link 
+	{
+		color: #FAFAFA;
+	}
+
+
 .servi1:hover {filter: saturate(300%);}
 .servi2:hover {filter: saturate(300%);}
 .servi3:hover {filter: saturate(300%);}
@@ -494,6 +508,10 @@ h5 {
     background-color: #fff !important;
 }
 
+.carousel-caption{
+	bottom: 130px;
+}
+
 .case-section .item {
     -webkit-transition: all 0.2s ease-in-out 0s;
     transition: all 0.2s ease-in-out 0s;
@@ -623,6 +641,14 @@ h5 {
 	top: 250px;
 	z-index: 1600;
 	left: 1850px;
+	}
+
+
+	.services
+	{
+		background: #d2dbeb;
+		padding-top: 6.5rem;
+
 	}
 
 
@@ -1013,6 +1039,11 @@ h5 {
 		display: none;
 	}
 
+	.navbar-light .navbar-nav .nav-link 
+	{
+		color: #3b3b3b;
+	}
+
 	.menu{
 		background: #f8f9fa !important;
 	}
@@ -1035,10 +1066,7 @@ h5 {
 		margin-top: 50px;
 	}
 
-	.link{
-		color: black !important;
-	}
-
+	
 }	
 
 @media screen and (max-width: 360px)
@@ -1108,8 +1136,6 @@ h5 {
 		margin-top: 50px;
 	}
 
-	.link{
-		color: black !important;
-	}
+	
 
 }	

@@ -27,7 +27,7 @@
 	<body >
 
 
-	 <nav id="menup"  class="navbar navbar-expand-lg navbar-light menu  fixed-top" style="z-index: 10000;">
+	 <nav id="menup"  class="navbar navbar-expand-lg navbar-light menu  fixed-top">
 		<a class="navbar-brand" href="home"><img class="logo1" width="15%" src="images/logo.png"></a>
 		<a class="navbar-brand" href="home"><img class="logo2" width="30%" src="images/logom.png"></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,16 +36,16 @@
 		<div class="collapse navbar-collapse" id="navbarNavDropdown">
 		  <ul class="navbar-nav ml-auto">
 			<li class="nav-item active ">
-			  <a class="nav-link text-secondary text-center link" href="home">HOME </a>
+			  <a class="nav-link text-secondary text-center" href="home">Home </a>
 			</li>
 			<li class="nav-item">
-			  <a class="nav-link text-light text-center link" href="projects">OUR PROJECTS </a>
+			  <a class="nav-link  text-center link" href="projects">Our projects </a>
 			</li>
 			<li class="nav-item">
-			  <a class="nav-link text-light text-center link d-none" href="#">INTRANET </a>
+			  <a class="nav-link  text-center link" href="#services">Services </a>
 			</li>
 			<li class="nav-item">
-			  <a class="nav-link text-light text-center link" href="contact">CONTACT</a>
+			  <a class="nav-link  text-center link" href="contact">Contact</a>
 			</li>
 			
 		  </ul>
@@ -96,31 +96,28 @@
 	</section>
 	
 
-	<section class="services py-5" style="background-color:#000000">
+	<section class="services d-none">
 
-		<div class="container-fluid">
+		<div class="container">
 
 			<div class="row justify-content-between ">
 
-				<div class="col-md-12 text-center">
-					<h5 id="projects" class="text-light linea mb-5"><span>OUR SERVICES</span></h5>
-
-				</div>
+				
 
 				<div class="col-sm-6  col-lg-2 text-center servi1">
-					<a href="#carouselExampleCaptions" data-slide-to="0"><img  class="" width="40%" src="images/services/data-science.png"></a>
-					<p class="text-muted text-center mt-5"><strong>Data <br> Science</strong></p>
+					<a href="#carouselExampleCaptions" data-slide-to="0"><img  class="" width="30%" src="images/services/data-science.png"></a>
+					<p class=" text-center mt-3">Data <br> Science</p>
 
 				</div>
 
 				<div class="col-sm-6  col-lg-2 text-center servi2">
-					<a href="#carouselExampleCaptions" data-slide-to="2"><img class="" width="40%" src="images/services/artificial-inteligence.png"></a>
-					<p class="text-muted text-center mt-5"><strong>Artificial <br> Intelligence</strong></p>
+					<a href="#carouselExampleCaptions" data-slide-to="2"><img class="" width="30%" src="images/services/artificial-inteligence.png"></a>
+					<p class=" text-center mt-3">Artificial <br> Intelligence</p>
 				</div>
 
 				<div class="col-sm-12 col-md-6 col-lg-2 text-center servi3">
-					<a href="#carouselExampleCaptions" data-slide-to="3"><img class="" width="40%" src="images/services/process.png"></a>
-					<p class="text-muted text-center mt-5"><strong>Process <br> Automation</strong></p>
+					<a href="#carouselExampleCaptions" data-slide-to="3"><img class="" width="30%" src="images/services/process.png"></a>
+					<p class=" text-center mt-3">Process <br> Automation</p>
 				</div>
 
 				<!-- <div class="col-md-2 text-center">
@@ -131,13 +128,13 @@
 				
 
 				<div class="col-sm-12 col-md-6 col-lg-2 text-center servi4">
-					<a href="#carouselExampleCaptions" data-slide-to="1"><img class="" width="40%" src="images/services/optimized.png"></a>
-					<p class="text-muted text-center mt-5"><strong>Digital <br> Transformation</strong></p>
+					<a href="#carouselExampleCaptions" data-slide-to="1"><img class="" width="30%" src="images/services/optimized.png"></a>
+					<p class="text-center mt-3">Digital <br> Transformation</p>
 				</div>
 
 				<div class="col-sm-12 col-md-6 col-lg-2 text-center servi5">
-					<a href="#carouselExampleCaptions" data-slide-to="4"><img class="" width="40%" src="images/services/indicators.png"></a>
-					<p class="text-muted text-center mt-5"><strong>Statistical <br> Simulation</strong></p>
+					<a href="#carouselExampleCaptions" data-slide-to="4"><img class="" width="30%" src="images/services/indicators.png"></a>
+					<p class=" text-center mt-3">Statistical <br> Simulation</p>
 				</div>
 
 			</div>
@@ -216,7 +213,13 @@
 		
 	</section>
 
-	<section >
+	<section id="services">
+
+		<div class="col-md-12 text-left d-none">
+			<h2 id="projects" class="mb-4"><strong>OUR SERVICES</strong></h2>
+
+		</div>
+
 		<div id="carouselExampleCaptions" class="carousel slide slide1" data-ride="carousel">
 		  <ol class="carousel-indicators">
 		    
@@ -230,13 +233,14 @@
 			     
 			     	 <img  src="images/carrusel/GlouphiSliderHome001.jpg" class=" w-100" alt="...">
 
-			     	 <div class="carousel-caption col-md-5 d-md-block my-auto text-left">
-			     	 	<h2  class="textsli1"><strong>DATA</strong> </h2>
-				        <h2 class="textsli1"><strong>SCIENCE</strong></h2>
-				        <p  style="font-size: 20px">Find new Knowledge and applications on Busines intelligence science research, marketing, social development, education enviroment and much more.</p>
+			     	 <div class="carousel-caption col-md-5 d-md-block text-left">
+						<img width="20%" src="images/carrusel/Services Icon 001.png">   
+			     	 	<h2  class="textsli1 mt-4"><strong>DATA SCIENCE</strong> </h2>
+				        
+				        <p >Find new Knowledge and applications on Busines intelligence science research, marketing, social development, education enviroment and much more.</p>
 
 				        
-				        <img width="20%" src="images/carrusel/Services Icon 001.png">      
+				           
 
 				      </div>  
 			
@@ -249,12 +253,13 @@
 			      	<img class="w-100" src="images/carrusel/GlouphiSliderHome002.jpg">
 
 			      	 <div class="carousel-caption  col-md-5 my-auto d-none d-md-block text-left">
-			     	 	<h2 class="textsli2" ><strong>DIGITAL TRANSFORMATION <br> COLLABORATIVE WORK</strong></h2>
+						<img width="25%" src="images/carrusel/Services Icon 002.png">
+			     	 	<h2 class="textsli2 mt-4" ><strong>DIGITAL TRANSFORMATION <br> COLLABORATIVE WORK</strong></h2>
 
 				        
 				        <p class="textsli2inf">Digital transformation is no longer optional. We help you integrate new digital technologies to improve teamwork, facilitate internal and processes, as well as improve the experience with your clients.</p>
 
-				        <img width="20%" src="images/carrusel/Services Icon 002.png">
+				       
 				      </div>    
 		    </div>
 
@@ -265,10 +270,10 @@
 			     <img src="images/carrusel/GlouphiSliderHome003.webp" class="w-100" alt="...">
 
 			     <div class="carousel-caption  col-md-5 my-auto d-none d-md-block text-left">
-			     	 	<h2 class="textsli3"><strong>ARTIFICIAL <br> INTELLIGENCE</strong></h2>
-				        
+						<img width="25%" src="images/carrusel/Services Icon 005.png">
+			     	 	<h2 class="textsli3 mt-4"><strong>ARTIFICIAL <br> INTELLIGENCE</strong></h2>				        
 				        <p class="textsli3inf">Provide innovation and added value to your projects, discover new ways to reach your customers, strengthen the management of your team or boost your research with machine learning models.</p>
-				        <img width="20%" src="images/carrusel/Services Icon 005.png">
+				        
 				      </div> 
 
 		    	 
@@ -283,10 +288,11 @@
 				<img src="images/carrusel/GlouphiSliderHome005.webp" class="w-100"> 
 
 				<div class="carousel-caption col-md-5 my-auto textslip4 d-none d-md-block text-left">
-			     	 	<h2 class="textsli4"><strong>PROCESS <br> AUTOMATION</strong></h2>
+					<img width="20%" src="images/carrusel/Services Icon 004.png">
+			     	 	<h2 class="textsli4 mt-4"><strong>PROCESS <br> AUTOMATION</strong></h2>
 				        
-				        <p class="textsli4inf">Optimize your processes and give your team the tools for greater productivity with less operational effort, take your company to the new digital revolution.</p>
-				        <img width="20%" src="images/carrusel/Services Icon 004.png">
+				        <p >Optimize your processes and give your team the tools for greater productivity with less operational effort, take your company to the new digital revolution.</p>
+				       
 				      </div>		
 			    
 		    </div>
@@ -298,10 +304,11 @@
 			    <img src="images/carrusel/GlouphiSliderHome004.webp" class="w-100" alt="...">
 
 			<div class="carousel-caption col-md-5 my-auto textslip5 d-none d-md-block text-left">
-			     	 	<h2 class="textsli5 "><strong>STATISTICAL  SIMULATION <br> OPTIMIZED  DESIGNS</strong></h2>
+						<img width="20%" src="images/carrusel/Services Icon 003.png">
+			     	 	<h2 class="textsli5 mt-4"><strong>STATISTICAL  SIMULATION <br> OPTIMIZED  DESIGNS</strong></h2>
 				        
 				        <p class="textsli5inf">Improve your processes and designs through numerical <br> simulation. Run thousands of random numerical<br> experiments to find bugs and improvements.</p>
-				        <img width="20%" src="images/carrusel/Services Icon 003.png">
+				       
 				      </div>			
 		    </div> 
 		        
@@ -323,7 +330,7 @@
 
 	
 
-	<section style="background-color: #e5e1e1">
+	<section class="pt-5" style="background-color: #d2dbeb">
 
 		<div class="container">
 
@@ -335,7 +342,7 @@
 
 				<div class="col-md-6 my-auto">
 
-					<p class="text-dark text-center text-lg-left" style="font-size: 1.5rem;">Glouphi we accompany you, from identifying your needs and data   taking, to generating indicators and automatic reports.</p>
+					<p class="text-dark text-center text-lg-left" style="font-size: 1.2rem;">Glouphi we accompany you, from identifying your needs and data   taking, to generating indicators and automatic reports.</p>
 					
 				
 					<div class="d-block text-center  text-md-center text-sm-center text-lg-center text-xl-left ">
