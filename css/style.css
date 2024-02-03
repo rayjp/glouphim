@@ -852,7 +852,6 @@ h5 {
 }
 
 
-
 .textsli2inf
 {
 	
@@ -1018,6 +1017,14 @@ h5 {
 		display: none;
 	}
 
+	.text-light {
+
+		color: #3b3b3b !important;
+	
+	}
+
+	
+
 	.projects2
 	{
 		display: none;
@@ -1086,6 +1093,9 @@ h5 {
 	{
 		display: none;
 	}
+
+	
+	
 
 	.projects2
 	{
